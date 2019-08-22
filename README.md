@@ -3,7 +3,7 @@ Raspberry Pi powered IoT Blinds
 <br>
 ## Hardware Setup<br>
 A generic 360 degree continuous servo was used with an Adafruit PWM Board (https://learn.adafruit.com/16-channel-pwm-servo-driver/python-circuitpython)<br><br>
-The bracket was custom designed and 3D Printed to perfectly tension my chain. The sprocket was a 120% scale print of https://www.thingiverse.com/thing:70179 
+The sprocket was a 120% scale print of https://www.thingiverse.com/thing:70179 
 <br>
 ## Software Setup<br>
 Install dependences:<br>
