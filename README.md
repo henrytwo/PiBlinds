@@ -1,6 +1,8 @@
 # PiBlinds
 Raspberry Pi powered IoT Blinds
 <br>
+Demo: https://www.youtube.com/watch?v=M4cTFb5kdck
+<br>
 ## Hardware Setup<br>
 A generic 360 degree continuous servo was used with an Adafruit PWM Board (https://learn.adafruit.com/16-channel-pwm-servo-driver/python-circuitpython)<br><br>
 The sprocket was a 120% scale print of https://www.thingiverse.com/thing:70179 
