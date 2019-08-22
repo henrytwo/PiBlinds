@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PiBlinds</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<h1>PiBlinds!</h1>
+
+<button id="open" type="button">Open</button>
+<button id="close" type="button">Close</button>
+
+</body>
+
+<script>
+
+    $('document').ready(function () {
+       $('#open').on('click', function() {
+            $.post('/openBlinds', {'command': 'arm'}, function(data) {
+                console.log(data);
+            })
+
+       })
+
+        $('#close').on('click', function() {
+            $.post('/closeBlinds', {'command': 'disarm'}, function(data) {
+                console.log(data);
+            })
+
+       })
+    });
+
+</script>
+
+</html>
+
